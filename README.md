@@ -106,50 +106,25 @@ Project is configured to run on mysql database as storage. It can be configured 
 
 ### Installation
 
-Provide step-by-step instructions on how to install and get your project running.
+Follow steps below
 
-```bash
-# Example installation steps
-git clone https://github.com/username/project.git
-cd project
-npm install
-```
+1. Go to IntelliJ. `File > Project from version control` </br>
+![Screenshot 2024-07-22 221528](https://github.com/user-attachments/assets/f445e8fd-d10f-4e68-a6ed-e8f5b049d75b)
+</br>
+2. Choose folder to build project on. Paste git url in `URL` field
 
-## Usage
+   
+![Screenshot 2024-07-22 221142](https://github.com/user-attachments/assets/5564447d-fad1-425e-889c-59af99a3e897)
+</br>
 
-Provide examples and instructions for using your project. Show how to use any main features with code examples.
+3. Do a Maven build to let your IntelliJ structure all dependencies. </br>
+![Screenshot 2024-07-22 221636](https://github.com/user-attachments/assets/b8b5453f-23bc-42c5-a28e-cec283f9ff7f) </br>
 
-```bash
-# Example usage
-command-line-tool --option value
-```
+4. Configure `application.properties` file. Set your database username, password. Set schema eg. I have set `firstwork` </br>
 
-## Contributing
+![Screenshot 2024-07-22 223627](https://github.com/user-attachments/assets/c0c23d31-6aba-4b5e-a475-95232955bbe6)
 
-Explain how people can contribute to your project. Include guidelines for:
-- How to report bugs
-- How to suggest enhancements
-- How to contribute code via pull requests
-
-## License
-
-Specify under what license your code is distributed. For example:
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Contact
-
-Provide your contact information if users want to reach out with questions or feedback.
-
----
-
-Replace the placeholder sections (`Project Name`, `About`, `Features`, etc.) with your project-specific information. Customize the sections and content to best describe your project and provide clear, concise information for users and potential contributors.
-
-### Additional Tips
-
-- **Formatting**: Use Markdown syntax for headings, lists, code blocks, links, and formatting to improve readability.
-- **Images and GIFs**: Consider adding screenshots, diagrams, or GIFs to visually demonstrate your project.
-- **Badges**: Include badges for build status, version, license, etc., if applicable.
-- **Update**: Keep your README.md file updated as your project evolves.
-
-By following this template and customizing it to fit your project, you can create a README.md file that effectively communicates your project's purpose, usage instructions, and how others can contribute or get involved.
+   
+5. Go to `FirstworkAppApplication` and right click and Run.
+   </br>
+6. Run the endpoints via Postman and explore. </br>
